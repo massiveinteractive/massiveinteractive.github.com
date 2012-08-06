@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Welcome"
+title: "Open Source"
 comments: true
 sharing: true
 footer: true
