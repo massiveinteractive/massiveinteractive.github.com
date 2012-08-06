@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Massive Interactive]]></title>
+  <link href="http://massiveinteractive.github.com/atom.xml" rel="self"/>
+  <link href="http://massiveinteractive.github.com/"/>
+  <updated>2012-08-06T10:49:40+10:00</updated>
+  <id>http://massiveinteractive.github.com/</id>
+  <author>
+    <name><![CDATA[Massive]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
