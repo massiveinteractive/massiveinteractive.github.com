@@ -8,9 +8,6 @@ footer: true
 
 > This site provides an overview of the open source projects released and contributed to by Massive Interactive.
 
-
-
-
 Massive provide a number of open source libraries and tools that are intended to increase the quality, efficiency and consistency of **cross-platform** development with **Haxe**.
 
 * **munit** - unit testing framework and CLI
@@ -26,7 +23,7 @@ See <https://github.com/massiveinteractive> for more information.
 
 
 
-### About Massive
+## About Massive
 
 **Massive Interactive is a specialist provider of software and technology/design services and in the area of IP video.**
 
@@ -37,10 +34,7 @@ Our technology focus is on enabling our clients to efficiently distribute and se
 
 For more 15 years we have worked closely with television networks and channels, cable TV operators, online video operators, film distributors, telcos and airlines – learning about their businesses and collaborating with them to create innovative new entertainment services for their customers.
 
-### Open Source Initiatives
-
-
-### What is Haxe?
+## What is Haxe?
 
 Haxe is an multi-platform open source programming language <http://www.haxe.org>.
 
@@ -51,14 +45,18 @@ Haxe is an multi-platform open source programming language <http://www.haxe.org>
 * Syntax similar to JavaScript/ActionScript/Java
 * Expressive modern language
 
-		class HelloWorld
-		{
-		    static function main()
-		    {
-		        return new HelloWorld();
-		    }
-		    public function new()
-		    {
-		        trace("Hello World !");
-		    }
-		}
+.
+
+{% codeblock Example %}
+class HelloWorld
+{
+    static function main()
+    {
+        return new HelloWorld();
+    }
+    public function new()
+    {
+        trace("Hello World !");
+    }
+}
+{% endcodeblock %}
