@@ -2,10 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://massiveinteractive.github.com/blog/archives/</loc>
-        <lastmod>2012-08-06T10:48:45+10:00</lastmod>
+        <lastmod>2012-08-06T11:24:55+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://massiveinteractive.github.com/blog/</loc>
+        <lastmod>2012-08-06T11:24:55+10:00</lastmod>
     </url>
     <url>
         <loc>http://massiveinteractive.github.com/</loc>
-        <lastmod>2012-08-06T10:48:45+10:00</lastmod>
+        <lastmod>2012-08-06T11:24:55+10:00</lastmod>
+    </url>
+    <url>
+        <loc>http://massiveinteractive.github.com/</loc>
+        <lastmod>2012-08-06T11:24:55+10:00</lastmod>
     </url>
 </urlset>

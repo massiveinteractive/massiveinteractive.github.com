@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Massive Interactive</title>
+  <title>Welcome - Massive Interactive</title>
   <meta name="author" content="Massive">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="Welcome This site provides an overview of the open source projects released and contributed to by Massive Interactive. Massive provide a number of &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -62,22 +62,129 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Welcome</h1>
+    
+  </header>
+  
+  <blockquote><p>This site provides an overview of the open source projects released and contributed to by Massive Interactive.</p></blockquote>
+
+<p>Massive provide a number of open source libraries and tools that are intended to increase the quality, efficiency and consistency of <strong>cross-platform</strong> development with <strong>Haxe</strong>.</p>
+
+<ul>
+<li><strong>munit</strong> - unit testing framework and CLI</li>
+<li><strong>mcover</strong> - code coverage framework</li>
+<li><strong>mconsole</strong> - console and logging API for Haxe</li>
+<li><strong>mpartial</strong> - umacro library for implementing platform specific functionality as partial-classes in Haxe</li>
+<li><strong>msignal</strong> - type safe port of Robert Penner’s AS3 Signals leveraging Haxe generics</li>
+<li><strong>minject</strong> - macro enhanced Haxe port of Till Schneidereit's AS3 Swift Suspenders</li>
+<li><strong>mmvc</strong> - Haxe port of RobotLegs minus events plus signals</li>
+</ul>
+
+
+<p>See <a href="https://github.com/massiveinteractive">https://github.com/massiveinteractive</a> for more information.</p>
+
+<h3>About Massive</h3>
+
+<p><strong>Massive Interactive is a specialist provider of software and technology/design services and in the area of IP video.</strong></p>
+
+<p><a href="http://massiveinteractive.com/">http://massiveinteractive.com/</a></p>
+
+<p>Our technology focus is on enabling our clients to efficiently distribute and sell video content across a broad spectrum of consumer devices such as PCs, set-top-boxes, connected TVs, game consoles, tablets, smart phones and in-flight entertainment systems. On the design front, our UX&amp;D leaders believe that good user interfaces - which are best arrived at through rigorous discovery processes and analysis - sell more content. Bad or average ones sell less. If you’re in the business of commercialising video content, it pays to get it right.</p>
+
+<p>For more 15 years we have worked closely with television networks and channels, cable TV operators, online video operators, film distributors, telcos and airlines – learning about their businesses and collaborating with them to create innovative new entertainment services for their customers.</p>
+
+<h3>Open Source Initiatives</h3>
+
+<h3>What is Haxe?</h3>
+
+<p>Haxe is an multi-platform open source programming language <a href="http://www.haxe.org">http://www.haxe.org</a>.</p>
+
+<ul>
+<li>Designed for platform agnostic and cross platform development</li>
+<li>Compiles to JavaScript, Flash, C++, Java, C# and more</li>
+<li>Open source</li>
+<li>Strictly typed</li>
+<li>Syntax similar to JavaScript/ActionScript/Java</li>
+<li><p>Expressive modern language</p>
+
+<pre><code>  class HelloWorld
+  {
+      static function main()
+      {
+          return new HelloWorld();
+      }
+      public function new()
+      {
+          trace("Hello World !");
+      }
+  }
+</code></pre></li>
+</ul>
+
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://massiveinteractive.github.com/index.html" data-via="" data-counturl="http://massiveinteractive.github.com/index.html" >Tweet</a>
   
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  
 </div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/massiveinteractive">@massiveinteractive</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'massiveinteractive',
+            count: 20,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -87,6 +194,7 @@
 
   
 </aside>
+
 
     </div>
   </div>
