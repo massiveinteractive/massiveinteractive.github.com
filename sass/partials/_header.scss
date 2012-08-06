@@ -1,18 +1,29 @@
 body > header {
-  background: $header-bg;
+  padding-left:0;
+  background: #FFFFFF;
   h1 {
+   background: url('../images/Massive_logo.gif');
+    width:116px;
+    height:90px;
     display: inline-block;
-    margin: 0;
+    margin: 0 0 0.2em 1.0em;
+    font-size: 2.7em;
+    float: left;
     a, a:visited, a:hover {
       color: $title_color;
       text-decoration: none;
     }
+    text-indent: -3000px;
   }
+
   h2 {
-    margin: .2em 0 0;
+    margin: 68px 0 0 2.0em;
+    font-size: 1.0em;
     @extend .sans;
-    font-size: 1em;
     color: $subtitle-color;
     font-weight: normal;
+    letter-spacing: 1px;
+    clear: right;
+    float: left;
   }
 }

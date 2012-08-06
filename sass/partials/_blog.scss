@@ -1,6 +1,10 @@
 article {
   padding-top: 1em;
   a { @extend .force-wrap; }
+  p{
+    text-align:justify;
+    margin-bottom: 1em;
+  }
   header {
     position: relative;
     padding-top: 2em;
@@ -92,8 +96,8 @@ article + article {
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
-    font-size: 2.2em;
-    a { color: inherit; &:hover { color: $link-color-hover; } }
+    font-size: 1.8em;
+    a { color: #555555; &:hover { text-decoration:none } }
   }
   a[rel=full-article] {
     background: darken($main-bg, 5);
