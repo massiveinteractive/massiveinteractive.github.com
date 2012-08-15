@@ -17,7 +17,7 @@ Massive provide a number of open source libraries and tools that are intended to
 * **msignal** - type safe port of Robert Penner’s AS3 Signals leveraging Haxe generics
 * **minject** - macro enhanced Haxe port of Till Schneidereit's AS3 Swift Suspenders
 * **mmvc** - Haxe port of RobotLegs minus events plus signals
-
+* **mloader** - cross platform library for loading resources with utilities for queueing and caching requests
 
 See <https://github.com/massiveinteractive> for more information.
 
